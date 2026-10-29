@@ -1,0 +1,15 @@
+name = "OntologyAnvil"
+uuid = "9a9b8a0a-fdb1-465f-b3cc-1ed75a072f26"
+authors = ["DoubleNaught"]
+version = "0.1.0"
+
+[deps]
+D4M = "ca196bdc-a701-11e8-3d50-3b5cc8577617"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
